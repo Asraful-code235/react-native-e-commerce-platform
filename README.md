@@ -9,11 +9,11 @@ Designed 4 views using Tailwindcss with some third party libraries such as -
 
 ## ScreenShots
 
-1. CustomerList: <img src="./asstes/customer.PNG" alt="Alt text" title="customer list">
-2. Manage Orders: <img src="./asstes/orderpage.PNG" alt="Alt text" title="order manage">
-3. Online Payments: <img src="./asstes/payment.PNG" alt="Alt text" title="payment">
-4. Zero Commissions: <img src="./asstes/orderListPage.PNG" alt="Alt text" title="Zero Commissions">
-5. Login: <img src="./asstes/login.PNG" alt="Alt text" title="Zero Commissions">
+1. CustomerList: <img src="./customer.PNG" alt="Alt text" title="customer list">
+2. Manage Orders: <img src="./orderpage.PNG" alt="Alt text" title="order manage">
+3. Online Payments: <img src="./payment.PNG" alt="Alt text" title="payment">
+4. Zero Commissions: <img src="./orderListPage.PNG" alt="Alt text" title="Zero Commissions">
+5. Login: <img src="./login.PNG" alt="Alt text" title="Zero Commissions">
 
 ## What I Learned Building This Project
 
