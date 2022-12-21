@@ -14,6 +14,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 const Stack = createNativeStackNavigator();
 
 const AppScreen = () => {
+  // if userToken is available then user does not need to log in again
   const { userToken } = useContext(AuthContext);
   return (
     <NavigationContainer>

@@ -8,6 +8,9 @@ export const AuthProvider = ({ children }) => {
   const [userToken, setUserToken] = useState(null);
   const [userInfo, setUserInfo] = useState(null);
 
+  //   login user
+
+  //   Try to use aaaaa as the state value for userToken for direct access
   const login = (phoneNo, password) => {
     axios
       .post(`${BASE_URL}/jwt-auth/v1/token`, {
@@ -23,12 +26,15 @@ export const AuthProvider = ({ children }) => {
       })
       .then((err) => console.log(err));
   };
+  // logout user
+
   const logout = () => {
     setUserToken(null);
     AsyncStorage.removeItem('userInfo', userInfo);
     AsyncStorage.removeItem('userToken', userToken);
   };
 
+  // Perform fetch
   const isLoggedIn = async () => {
     try {
       // we are fetching the data here

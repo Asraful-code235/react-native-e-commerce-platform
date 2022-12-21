@@ -6,6 +6,7 @@ import { AuthContext } from '../utils/AuthContext';
 import { BaseButton } from 'react-native-gesture-handler';
 import Icon from 'react-native-vector-icons/AntDesign';
 
+// Registering users does not work yet
 const Register = () => {
   const { login } = useContext(AuthContext);
   const navigation = useNavigation();

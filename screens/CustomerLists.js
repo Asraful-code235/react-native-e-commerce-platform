@@ -19,6 +19,7 @@ const CustomerLists = () => {
   const handleSearchFilter = (text) => {
     setFilter(text);
   };
+  // search state
   const filteredData = data.filter((i) =>
     i.name.toLowerCase().includes(filter.toLowerCase())
   );

@@ -39,6 +39,7 @@ const OrderListScreen = () => {
             </View>
           </View>
           <View>
+            {/* get local orders and map to get specific data */}
             <View className="divide-y  divide-slate-300 mt-6 space-y-2">
               {orders.map((data, i) => (
                 <View key={data + i}>
