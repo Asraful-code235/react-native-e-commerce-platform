@@ -5,14 +5,14 @@
 
 Designed 4 views using Tailwindcss with some third party libraries such as -
 
-1.react-native-vector-icons
-2.async-storage
+1. react-native-vector-icons
+2. tailwindcss
 
 ## How to install
-1.First clone the project
-2.use expo install to install package.json
-3.use expo start in the terminal to start the project 
-4.use Expo Go as emulator to see live preview.
+1. First clone the project
+2. use expo install to install package.json
+3. use expo start in the terminal to start the project 
+4. use Expo Go as emulator to see live preview.
 
 ## ScreenShots
 
