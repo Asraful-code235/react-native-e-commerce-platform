@@ -19,7 +19,12 @@ const AppScreen = () => {
   return (
     <NavigationContainer>
       {/* In case app login does not work remover the !(not) from line 21 */}
-      {userToken !== null ? (
+      {/* 
+      add this line in the next line
+
+            userToken !== null
+      */}
+      {userToken == null ? (
         <Stack.Navigator>
           <Stack.Screen name="orders" component={Orders} />
           <Stack.Screen name="customerLists" component={CustomerLists} />
